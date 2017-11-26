@@ -1,0 +1,199 @@
+.hero-img__background {
+    background-image:  url(../Images/bg.jpg);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    padding-top: 603px;
+}
+.navbar-nav {
+     margin-top: -36px;
+}
+.follow-link__div {
+     color: white;
+     margin: -9px;
+     margin-left: 29px;
+     font-family: cursive;
+}
+.icon-set__list {
+    font-size: 27px;
+    margin-top: -41px;
+}
+.hero_first-heading{
+   margin-top: -374px;
+    text-align: center;}
+.scrolldown  {
+    text-decoration: none;
+    text-decoration-color: black;
+    
+    cursor: auto;
+    display: inline-block;
+    font-size: 18px;
+}
+.scrolldown a {
+    color: aliceblue;
+    text-decoration: none;
+    border-bottom: none;
+    background-color: transparent;
+    cursor: auto;
+    font-size: 2.2rem;
+    display: inline-block;
+    left: 57%;
+    bottom: 2.5%;
+    position: absolute;
+    text-align: center;
+    /* vertical-align: middle; */
+    /* margin: -22px auto; */
+    transform: translate(-58%);
+    margin-left: -71px;
+}
+/*first part style are done*/
+
+/*Second part start from here*/
+.skills-heading{
+    color: #eee;
+    margin-top: 35px;
+    font-family: monospace;
+}
+.hero-img-second__background {
+       padding-bottom: 18px;
+    background-image: url(../Images/bg1.jpg);
+        background-size: cover;
+}
+
+
+/*third part start from here*/
+.hero-third-page{
+
+}
+.pro-para{
+    text-align: justify;
+    margin-top: -2px;
+}
+.pro-param{
+    text-align: justify;
+    display: inline-block;
+}
+.hero-page-work {
+    margin: 135px;
+    margin-top: -151px;
+        padding-top: 52px;
+        font-size: initial;
+    font-variant: petite-caps;
+        background-color: white;
+}
+.work-headline {
+    margin: 135px;
+    margin-top: -22px;
+    font-style: normal;
+    font-family: cursive;
+    text-align: center;
+    text-transform: lowercase;
+    color: black;
+}
+.work-head{
+    font-size: 30px;}
+.hero-third-page {
+    color: black;
+    margin: 90px;
+    margin-top: 57px;}
+
+/*fourth part start from here*/
+.hero-contact{
+    background-color: black;
+          margin-top: -60px;
+          color: ghostwhite;
+          margin: auto;
+}
+
+.last-page-heading{
+	margin-top: -7px;
+	text-align: center;
+    font-family: cursive;
+    color: white;
+    margin-bottom: 26px;
+    font-size: 90px;}
+.list-cont{
+
+}	
+	
+.contact-image{width: 250px;
+    border-radius: 20px;
+    margin-top: 90px;}
+.list-page-question{
+    font-size: 28px;
+    margin-left: 22px;
+    font-stretch: semi-expanded;
+    font-family: serif;
+	margin-top: -3px;
+    color: white;}
+
+	
+.detail{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.submit{width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;}
+.submit:hover{ background-color: #45a049;}
+
+.nav-toggel li{
+    font-weight: 900;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+.navbar-toggle{
+    color: #eee;
+        font-size: 30px;
+    top: -6px;
+    position: absolute;
+    right: 1px;
+    padding: 0;
+    }
+
+@media (max-width: 765px) {
+  .nav-toggel li {
+   display: block;
+  }
+.nav-toggel{
+        display: none;
+    }
+  #menu-check:checked+.nav-toggel{
+        width: 100%;
+        display: block;
+    }
+}
+
+.follow-me__links a, .follow-me__links span {
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 30px;
+}
+
+.follow-me__links span {
+    color: #fff;
+    font-weight: 900;
+}
+
+.link-color {
+    color: #eee;
+}
+.follow-me__links a:hover {
+       -ms-transform: scale(1.5, 1.5);
+    -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+    color: #eee;
+}
